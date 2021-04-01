@@ -17,7 +17,12 @@ public class Float : MonoBehaviour
     float periodicOffset;
     // Start is called before the first frame update
     bool isFloating = true;
-    void Start()
+    void Awake()
+    {
+        InitializeFloating();
+    }
+
+    void InitializeFloating()
     {
         int rand = Random.Range(0, 2);
         if (rand == 0)
@@ -33,20 +38,27 @@ public class Float : MonoBehaviour
         {
             transform.Rotate(0, rotationSpeed * Time.deltaTime, 0);
             Vector3 pos = this.transform.position;
-            transform.position = new Vector3(pos.x, yOffset + (Mathf.Sin(Time.time * bounceSpeed + periodicOffset) * bounceHeight), pos.z);
+            transform.position = new Vector3(pos.x, pos.y  + (Mathf.Sin(Time.time * bounceSpeed + periodicOffset) * bounceHeight), pos.z);
         }
        
     }
 
     public void SpinFaster()
     {
+        isFloating = true;
         StartCoroutine(Spin());
+     
+
     }
 
     IEnumerator Spin()
     {
-        bounceSpeed *= 2;
+        int tempSpd = rotationSpeed;
+        rotationSpeed = 720;
+       
         yield return new WaitForSeconds(2);
-        bounceSpeed /= 2;
+        rotationSpeed = tempSpd;
+        InitializeFloating();
     }
+
 }

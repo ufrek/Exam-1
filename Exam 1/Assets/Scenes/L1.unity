@@ -147,8 +147,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationSpeed: 130
   bounceSpeed: 2
-  bounceHeight: 0.09
-  yOffset: 1.6
+  bounceHeight: 0.0005
+  yOffset: 0.1
   periodicOffset: 1.29
 --- !u!82 &70645355
 AudioSource:
@@ -744,8 +744,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationSpeed: 130
   bounceSpeed: 2
-  bounceHeight: 0.09
-  yOffset: 1.6
+  bounceHeight: 0.0005
+  yOffset: 0.1
   periodicOffset: 1.29
 --- !u!82 &705180560
 AudioSource:
@@ -858,7 +858,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &907292808
 Transform:
   m_ObjectHideFlags: 0
@@ -1163,7 +1163,7 @@ PrefabInstance:
     - target: {fileID: 5754160018787072924, guid: c4c7fe9f5e3673a4f891871931ec5826,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5754160018787072927, guid: c4c7fe9f5e3673a4f891871931ec5826,
         type: 3}
@@ -1471,9 +1471,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationSpeed: 130
   bounceSpeed: 2
-  bounceHeight: 0.09
-  yOffset: 1.6
-  periodicOffset: 0
+  bounceHeight: 0.0005
+  yOffset: 0.1
+  periodicOffset: 1.29
 --- !u!114 &1443449161
 MonoBehaviour:
   m_ObjectHideFlags: 0

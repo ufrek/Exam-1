@@ -121,75 +121,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &80227284
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1504270119445175849, guid: 821a1edf2a654434181fd0156f8f31e0,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.36
-      objectReference: {fileID: 0}
-    - target: {fileID: 1504270119445175849, guid: 821a1edf2a654434181fd0156f8f31e0,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 5.36
-      objectReference: {fileID: 0}
-    - target: {fileID: 1504270119445175849, guid: 821a1edf2a654434181fd0156f8f31e0,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 4.81
-      objectReference: {fileID: 0}
-    - target: {fileID: 1504270119445175849, guid: 821a1edf2a654434181fd0156f8f31e0,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.26614493
-      objectReference: {fileID: 0}
-    - target: {fileID: 1504270119445175849, guid: 821a1edf2a654434181fd0156f8f31e0,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1504270119445175849, guid: 821a1edf2a654434181fd0156f8f31e0,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1504270119445175849, guid: 821a1edf2a654434181fd0156f8f31e0,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.9639331
-      objectReference: {fileID: 0}
-    - target: {fileID: 1504270119445175849, guid: 821a1edf2a654434181fd0156f8f31e0,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1504270119445175849, guid: 821a1edf2a654434181fd0156f8f31e0,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -30.87
-      objectReference: {fileID: 0}
-    - target: {fileID: 1504270119445175849, guid: 821a1edf2a654434181fd0156f8f31e0,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1504270119445175849, guid: 821a1edf2a654434181fd0156f8f31e0,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7480186007760501513, guid: 821a1edf2a654434181fd0156f8f31e0,
-        type: 3}
-      propertyPath: m_Name
-      value: ClosedTxt
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 821a1edf2a654434181fd0156f8f31e0, type: 3}
 --- !u!1 &82199990
 GameObject:
   m_ObjectHideFlags: 0
@@ -445,8 +376,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationSpeed: 130
   bounceSpeed: 2
-  bounceHeight: 0.09
-  yOffset: 1.6
+  bounceHeight: 0.0005
+  yOffset: 0.1
   periodicOffset: 1.29
 --- !u!82 &705180560
 AudioSource:
@@ -559,7 +490,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &907292808
 Transform:
   m_ObjectHideFlags: 0
@@ -832,7 +763,7 @@ PrefabInstance:
     - target: {fileID: 5754160018787072924, guid: c4c7fe9f5e3673a4f891871931ec5826,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5754160018787072927, guid: c4c7fe9f5e3673a4f891871931ec5826,
         type: 3}
@@ -927,7 +858,7 @@ MonoBehaviour:
       m_Calls: []
   closedPrefab: {fileID: 7480186007760501513, guid: 821a1edf2a654434181fd0156f8f31e0,
     type: 3}
-  closedYOffset: 0.5
+  closedYOffset: 0.1
 --- !u!114 &1162184383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1205,9 +1136,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationSpeed: 130
   bounceSpeed: 2
-  bounceHeight: 0.09
-  yOffset: 1.6
-  periodicOffset: 0
+  bounceHeight: 0.0005
+  yOffset: 0.1
+  periodicOffset: 1.29
 --- !u!114 &1443449161
 MonoBehaviour:
   m_ObjectHideFlags: 0

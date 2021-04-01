@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2483BE61-E095-998B-11F5-2C5D6B7A60C4}</ProjectGuid>
+    <ProjectGuid>{187E9B85-39E5-E7FF-170D-F47978AF5F99}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -592,67 +592,67 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management">
-      <HintPath>C:/Users/User/Documents/Spring/Virtual Reality/Exam 1/Cardboard-Template/Exam Template/Exam Template/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+      <HintPath>C:/Users/User/Documents/Spring/Virtual Reality/Exam 1/Exam 1/Exam-1/Exam 1/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/User/Documents/Spring/Virtual Reality/Exam 1/Cardboard-Template/Exam Template/Exam Template/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/User/Documents/Spring/Virtual Reality/Exam 1/Exam 1/Exam-1/Exam 1/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Subsystem.Registration">
-      <HintPath>C:/Users/User/Documents/Spring/Virtual Reality/Exam 1/Cardboard-Template/Exam Template/Exam Template/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+      <HintPath>C:/Users/User/Documents/Spring/Virtual Reality/Exam 1/Exam 1/Exam-1/Exam 1/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/User/Documents/Spring/Virtual Reality/Exam 1/Cardboard-Template/Exam Template/Exam Template/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/User/Documents/Spring/Virtual Reality/Exam 1/Exam 1/Exam-1/Exam 1/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/User/Documents/Spring/Virtual Reality/Exam 1/Cardboard-Template/Exam Template/Exam Template/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/User/Documents/Spring/Virtual Reality/Exam 1/Exam 1/Exam-1/Exam 1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Google.XR.Cardboard">
-      <HintPath>C:/Users/User/Documents/Spring/Virtual Reality/Exam 1/Cardboard-Template/Exam Template/Exam Template/Library/ScriptAssemblies/Google.XR.Cardboard.dll</HintPath>
+      <HintPath>C:/Users/User/Documents/Spring/Virtual Reality/Exam 1/Exam 1/Exam-1/Exam 1/Library/ScriptAssemblies/Google.XR.Cardboard.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/User/Documents/Spring/Virtual Reality/Exam 1/Cardboard-Template/Exam Template/Exam Template/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/User/Documents/Spring/Virtual Reality/Exam 1/Exam 1/Exam-1/Exam 1/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/User/Documents/Spring/Virtual Reality/Exam 1/Cardboard-Template/Exam Template/Exam Template/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/User/Documents/Spring/Virtual Reality/Exam 1/Exam 1/Exam-1/Exam 1/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/User/Documents/Spring/Virtual Reality/Exam 1/Cardboard-Template/Exam Template/Exam Template/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/User/Documents/Spring/Virtual Reality/Exam 1/Exam 1/Exam-1/Exam 1/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-      <HintPath>C:/Users/User/Documents/Spring/Virtual Reality/Exam 1/Cardboard-Template/Exam Template/Exam Template/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+      <HintPath>C:/Users/User/Documents/Spring/Virtual Reality/Exam 1/Exam 1/Exam-1/Exam 1/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management.Editor">
-      <HintPath>C:/Users/User/Documents/Spring/Virtual Reality/Exam 1/Cardboard-Template/Exam Template/Exam Template/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+      <HintPath>C:/Users/User/Documents/Spring/Virtual Reality/Exam 1/Exam 1/Exam-1/Exam 1/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/User/Documents/Spring/Virtual Reality/Exam 1/Cardboard-Template/Exam Template/Exam Template/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/User/Documents/Spring/Virtual Reality/Exam 1/Exam 1/Exam-1/Exam 1/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
-      <HintPath>C:/Users/User/Documents/Spring/Virtual Reality/Exam 1/Cardboard-Template/Exam Template/Exam Template/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+      <HintPath>C:/Users/User/Documents/Spring/Virtual Reality/Exam 1/Exam 1/Exam-1/Exam 1/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
-      <HintPath>C:/Users/User/Documents/Spring/Virtual Reality/Exam 1/Cardboard-Template/Exam Template/Exam Template/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+      <HintPath>C:/Users/User/Documents/Spring/Virtual Reality/Exam 1/Exam 1/Exam-1/Exam 1/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Google.XR.Cardboard.Editor">
-      <HintPath>C:/Users/User/Documents/Spring/Virtual Reality/Exam 1/Cardboard-Template/Exam Template/Exam Template/Library/ScriptAssemblies/Google.XR.Cardboard.Editor.dll</HintPath>
+      <HintPath>C:/Users/User/Documents/Spring/Virtual Reality/Exam 1/Exam 1/Exam-1/Exam 1/Library/ScriptAssemblies/Google.XR.Cardboard.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/User/Documents/Spring/Virtual Reality/Exam 1/Cardboard-Template/Exam Template/Exam Template/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/User/Documents/Spring/Virtual Reality/Exam 1/Exam 1/Exam-1/Exam 1/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-      <HintPath>C:/Users/User/Documents/Spring/Virtual Reality/Exam 1/Cardboard-Template/Exam Template/Exam Template/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+      <HintPath>C:/Users/User/Documents/Spring/Virtual Reality/Exam 1/Exam 1/Exam-1/Exam 1/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/User/Documents/Spring/Virtual Reality/Exam 1/Cardboard-Template/Exam Template/Exam Template/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/User/Documents/Spring/Virtual Reality/Exam 1/Exam 1/Exam-1/Exam 1/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.XR.Management.Samples.csproj">
-      <Project>{B03D56D8-D9BB-46D0-B897-2CDD17A37900}</Project>
+      <Project>{B47DD9EC-C79A-FA8A-D69F-E42D3424F316}</Project>
       <Name>Unity.XR.Management.Samples</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Samples.Editor.csproj">
-      <Project>{3886B9D5-DA08-3681-5574-B9BC9746C6E1}</Project>
+      <Project>{77EE20A5-CA75-F0B3-1BDE-44E1F2F2638A}</Project>
       <Name>Unity.XR.Management.Samples.Editor</Name>
     </ProjectReference>
   </ItemGroup>
